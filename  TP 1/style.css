@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans serif;
+}
+button {
+    color: black ;
+
+}
+body {
+    background-position: 10px 0;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    height: 133px;
+    width: larger;
+}
+body container {
+    margin-left: 20px;
+    margin-top: 8px;
+    z-index: 4;
+}
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 5px;
+    background-color:white;
+}
+nav li{
+        display: inline-block;
+        text-transform: uppercase;
+        color:rgb(3, 3, 3);
+        padding:  20px 0;
+        height: 56px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+header{
+    width: 100%;
+    background:fixed   
+    
+
+}
+.main-header{
+    position: id=("./assets/img/logo-gc-hero.png") fixed center;
+    border: auto;
+    margin: 50px 0;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color:black;
+
+}
+.id{ 
+     width: 1200px;
+    margin: 0 auto 0 auto;
+}
+div img {
+    display: flexbox;
+    position: center;
+    
+
+}
+h1 {
+    color:white ;
+    position: center;
+    font-size:1,5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 30px 0 35px;
+
+}
+.icon-part{
+    display: grid ;
+    grid-template-columns: auto;
+}
